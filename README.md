@@ -1,5 +1,5 @@
 # Overview
-NoteChain demonstrates the eosio platform running a blockchain as a local single node test net with a simple DApp, NoteChain. NoteChain allows users to create and update notes. This guide uses scripts, containing relevant commands, which will show you how to install, build and run NoteChain, and by doing so will demonstrate:
+NoteChain demonstrates the amontes platform running a blockchain as a local single node test net with a simple DApp, NoteChain. NoteChain allows users to create and update notes. This guide uses scripts, containing relevant commands, which will show you how to install, build and run NoteChain, and by doing so will demonstrate:
 
 - Downloading and running eosio in docker;
 - Managing your docker container;
@@ -10,7 +10,7 @@ NoteChain demonstrates the eosio platform running a blockchain as a local single
 - Connecting the UI to the blockchain using eosjs;
 - Styling the UI using Material-UI.
 
-Github eosio-project-boilerplate-simple (https://github.com/EOSIO/eosio-project-boilerplate-simple) contains the UI and Smart Contract code, as well as setup scripts which will initialise and start all the necessary components.
+Github amontes-project-boilerplate-simple (https://github.com/amontesorg/amontes-project-boilerplate-simple) contains the UI and Smart Contract code, as well as setup scripts which will initialise and start all the necessary components.
 
 The sample DApp demonstrates storing data in multi index table and retrieving this data into the web based UI. NoteChain is a simple note taking application, where notes are tied to user accounts. For this example, all accounts are pre-created by scripts and the account details are displayed at the bottom of the NoteChain UI.
 
